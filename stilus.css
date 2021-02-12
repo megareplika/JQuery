@@ -1,0 +1,36 @@
+@charset "utf-8";
+main
+{
+    max-width:800px;
+    margin:auto;
+    background: gray;
+    padding: 5px;
+}
+
+#jatekter
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartya
+{
+    /*border:1px solid gray;*/
+    box-shadow: 10px 10px 39px -18px rgba(77,75,74,1);
+    border-radius:15px;
+    margin:10px;
+    padding:12px;
+    box-sizing:border-box;
+    flex: 0 0 calc(33.333% - 20px);
+}
+
+.kartya p
+{
+    text-align:center;
+    font-weight:bold;
+    cursor:grab;
+}
+.kartya img
+{
+    width: 100%;
+}
